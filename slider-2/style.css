@@ -1,0 +1,173 @@
+/* 
+right arrow: <i class="fas fa-arrow-right"></i>
+left arrow: <i class="fas fa-arrow-right"></i>
+facebook: <i class="fab fa-facebook-square"></i>
+instagram: <i class="fab fa-instagram-square"></i>
+linkedin: <i class="fab fa-linkedin"></i>
+twitter: <i class="fab fa-twitter-square"></i>
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #dbfdff;
+}
+.menu span{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 25px;
+}
+.menu img{
+    width: 45px;
+    margin: 0 25px;
+    cursor: pointer;
+}
+.container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+}
+.big-slider{
+    width: 65vw;
+    height: 93vh;
+    background: url(img/06.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.slider-controller{
+    width: 300px;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ffffff;
+}
+.fas{
+    font-size: 25px;
+    cursor: pointer;
+}
+.fa-arrow-left{
+    opacity: 25%;
+}
+hr{
+    width: 1px;
+    height: 70px;
+    border: none;
+    background: #000;
+    transform: rotate(90deg);
+}
+.next-small-slider{
+    width: 15vw;
+    height: 25vh;
+    background: url(img/01.jpg);
+    background-size: cover;
+}
+.right{
+    width: 35vw;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+}
+.top-div{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1a90d8;
+}
+.top-div h2{
+    width: 15vw;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 1.8;
+    color: #ffffff;
+}
+.bottom-div{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-icons{
+    width: 15vw;
+    display: flex;
+    justify-content: space-around;
+}
+.fa-facebook-square:hover{
+    color: #3b5998;
+    transition: 0.4s;
+}
+.fa-instagram-square:hover{
+    color: #C13584;
+    transition: 0.4s;
+}
+.fa-linkedin:hover{
+    color: #2867B2;
+    transition: 0.4s;
+}
+.fa-twitter-square:hover{
+    color: #1DA1F2;
+    transition: 0.4s;
+}
+.fab{
+    font-size: 35px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background: #1a90d8;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #55bffe;
+    transition: 0.4s;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .menu span{
+        font-size: 22px;
+    }
+    .container  {
+        flex-direction: column;
+    }
+    .big-slider{
+        width: 100vw;
+        height: 93vh;
+    }
+    .next-small-slider{
+        display: none;
+    }
+    .right{
+        width: 100vw;
+        height: 93vh;
+    }
+
+}
