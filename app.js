@@ -1,7 +1,7 @@
 let posts = [
     {
         name    : 'LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. CURABITUR PLACERAT',
-        image   : 'img/01.jpg',
+        image   : './img/01.jpg',
         look    : '350',
         comment : '15',
         share   : '22',
@@ -9,7 +9,7 @@ let posts = [
     },
     {
         name    : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et.',
-        image   : 'img/02.jpg',
+        image   : './img/02.jpg',
         look    : '425',
         comment : '20',
         share   : '25',
@@ -17,7 +17,7 @@ let posts = [
     },
     {
         name    : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur.',
-        image   : 'img/03.jpg',
+        image   : './img/03.jpg',
         look    : '275',
         comment : '10',
         share   : '17',
@@ -25,7 +25,7 @@ let posts = [
     },
     {
         name    : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna.',
-        image   : 'img/04.jpg',
+        image   : './img/04.jpg',
         look    : '370',
         comment : '14',
         share   : '19',
@@ -33,7 +33,7 @@ let posts = [
     },
     {
         name    : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum.',
-        image   : 'img/05.jpg',
+        image   : './img/05.jpg',
         look    : '310',
         comment : '14',
         share   : '16',
@@ -41,7 +41,7 @@ let posts = [
     },
     {
         name    : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lectus.',
-        image   : 'img/06.jpg',
+        image   : './img/06.jpg',
         look    : '489',
         comment : '23',
         share   : '27',
@@ -49,7 +49,7 @@ let posts = [
     },
     {
         name    : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis.',
-        image   : 'img/07.jpg',
+        image   : './img/07.jpg',
         look    : '267',
         comment : '11',
         share   : '18',
